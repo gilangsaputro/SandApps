@@ -1,0 +1,113 @@
+body {
+    /* background-image: url('/assets/img/background/4853433.jpg'); */
+    font-family: "Kaushan Script", sans-serif;
+}
+
+@font-face {
+    font-family: "Kaushan Script";
+    src: url('../fonts/KaushanScript-Regular.otf') format('truetype');
+}
+
+/* animasi login */
+@keyframes animasilogin {
+    0% {
+        transform: scale(0);
+        border-radius: 50%;
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.box {
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    animation: animasilogin 1s ease-in 1 alternate forwards running;
+    border-radius: 20px;
+    margin: 100px auto;
+    width: 300px;
+
+}
+
+.box h1 {
+    font-weight: bold;
+    color: lightslategrey;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.box .input-form {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    background: none;
+    border: 0;
+    border: 2px solid lightslategray;
+    outline: none;
+    padding: 14px 10px;
+    width: 200px;
+    color: lightslategrey;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.box .input-form:focus {
+    width: 280px;
+    border: 2px solid lightseagreen;
+}
+
+.box input[type="submit"] {
+    text-align: center;
+    margin: 8px auto;
+    background: none;
+    border: 2px solid lightseagreen;
+    outline: none;
+    padding: 14px 10px;
+    width: 120px;
+    color: lightslategrey;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: lightseagreen;
+    color: white;
+}
+
+.note {
+    background: lightseagreen;
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 0.85em;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#login-message {
+    display: none;
+    background-color: lightslategray;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+#footer {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: lightslategrey;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: -5px;
+    line-height: 1.4em;
+    margin-left: 15px;
+    position: absolute;
+}

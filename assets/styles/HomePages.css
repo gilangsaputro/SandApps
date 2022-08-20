@@ -1,0 +1,381 @@
+/* fonts */
+@font-face {
+    font-family: "Fjalla One";
+    src: url("../fonts/Fjalla_One/FjallaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Kaushan Script";
+    src: url("../fonts/KaushanScript-Regular.otf") format("truetype");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: "Viga", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    color: #fff !important;
+    background-color: rgb(143, 143, 143);
+}
+
+.btn-navbar a {
+    width: 100%;
+}
+
+/* jumbtron */
+.jumbotron {
+    height: 100%;
+    margin-top: -75px;
+    background-color: rgb(143, 143, 143);
+}
+
+.jumbotron .text-hero {
+    margin-top: 17em;
+    text-shadow: 3px 3px 3px black;
+    color: #fff;
+}
+
+.text-hero .alw {
+    text-shadow: 0 0;
+    margin-top: 18px;
+}
+
+/* akhir jumbotron */
+/* ucapan */
+.ucapan {
+    background-color: #fff;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.layanan {
+    height: 200px;
+    background-color: rgb(143, 143, 143);
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+/* akhir dari ucapan */
+
+/* card utility */
+.carde {
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 13em;
+    color: #3a3850;
+    position: relative;
+    margin-top: 90px;
+}
+
+.text-head-carde {
+    font-family: "Kaushan Script", sans-serif;
+}
+
+.bingkai {
+    background-color: rgb(143, 143, 143);
+    padding: 0 7px 0 7px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.bingkai-beda {
+    background-color: rgb(143, 143, 143);
+    min-height: 390px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+}
+
+.bingkai a {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.bingkai-beda a {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.bingkai-beda h2 {
+    margin: 13px;
+}
+
+.bingkai-beda img {
+    width: 90%;
+    padding: 20px;
+}
+
+.bingkai-beda p {
+    margin: 10px;
+}
+
+.bingkai img {
+    padding: 20px;
+    width: 90%;
+}
+
+/* akhir dari card ultility */
+
+/* card 2 */
+.card-dua {
+    background-color: rgb(143, 143, 143);
+    padding-top: 5em;
+    color: #3a3850;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.text-bingkai {
+    margin-bottom: 3em;
+    color: #fff;
+}
+
+.text-bingkai-2 {
+    margin-bottom: 3em;
+    text-shadow: 1px 1px 5px black;
+    color: #fff;
+}
+
+.text-bingkai-2 h3 {
+    font-size: 40px;
+}
+
+.bingkai-dua {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bingkai-dua img {
+    padding: 20px;
+    width: 90%;
+}
+
+.bingkai-dua a {
+    width: 50%;
+    margin-bottom: 2em;
+    background-color: rgb(143, 143, 143);
+}
+
+.image img {
+    width: 200px;
+    height: 190px;
+}
+
+/* akhir dari card 2 */
+/* promosi */
+.promosi {
+    background-color: #fff;
+    margin-top: 7em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+    padding: 3em;
+    color: #3a3850;
+    font-weight: 300;
+}
+
+.promosi a {
+    background-color: rgb(143, 143, 143);
+    margin-top: 1.5em;
+    padding: 10px;
+}
+
+.promosi img {
+    width: 60%;
+    margin-left: 8em;
+}
+
+.promosi span {
+    font-weight: 700;
+}
+
+/* akhir dari promosi */
+/* pay */
+.pay {
+    margin-top: 9em;
+    background-color: #fff;
+    text-align: center;
+    color: #3a3850;
+}
+
+.metode-pembayaran {
+    padding-top: 4em;
+    padding-bottom: 9em;
+}
+
+.pay svg {
+    margin: 10px;
+    margin-top: 1em;
+}
+
+/* akhir pay */
+.footerr {
+    background-color: #fff;
+    color: #a6a6b1;
+}
+
+/* responsive */
+/* mobile */
+@media (min-width: 340px) {
+
+    /* navbar  */
+    .btn-navbar a {
+        margin-top: 10px;
+    }
+
+    .btn-navbar {
+        width: 100%;
+    }
+
+    /* jumbotron */
+
+    .text-hero a {
+        margin-top: 20px;
+    }
+
+    .text-hero {
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .text-hero h3 h5 {
+        padding: 7px;
+    }
+
+    /* carde */
+    .bingkai-beda {
+        margin-top: 30px;
+    }
+
+    .promImg {
+        display: none;
+        border-radius: 100%;
+        opacity: .9;
+    }
+
+    .promosi {
+        margin: 50px 4%;
+    }
+
+    /* pay */
+    .pay {
+        margin-top: -1.1em;
+    }
+
+    /* utility all */
+    h3 {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        font-weight: 300;
+    }
+
+    .leadUltah {
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+}
+
+/* medium */
+@media (min-width: 640px) {
+
+    /* jumbotron */
+    .text-hero {
+        text-align: left;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .promosi {
+        margin: 10%;
+    }
+
+    /* utility all */
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        font-weight: 300;
+    }
+
+    .leadUltah {
+        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .text-hero {
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        text-align: left;
+    }
+
+    .jumbotron img {
+        text-align: center;
+    }
+
+    /* carde */
+}
+
+/* pc */
+@media (min-width: 992px) {
+    .btn-navbar {
+        width: 77px;
+    }
+
+    .text-hero {
+        text-align: left;
+        margin: 13% 0 0 0;
+    }
+
+    .promImg {
+        display: inline-block;
+    }
+
+    /* carde */
+    .bingkai-beda .image {
+        margin-top: -21px;
+    }
+
+    .bingkai-beda {
+        padding-bottom: 2.7em;
+        margin-top: -5em;
+    }
+
+    .leadUltah {
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+}

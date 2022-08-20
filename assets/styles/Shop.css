@@ -1,0 +1,63 @@
+/* navbar */
+.navbar-brand {
+    font-family: "Viga", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    color: #fff !important;
+    background-color: rgb(143, 143, 143);
+}
+
+.btn-navbar a {
+    width: 100%;
+}
+
+/* akhir dari navbar */
+/* card-shop */
+.text-bingkai {
+    margin-bottom: 3em;
+    color: #fff;
+}
+
+.text-bingkai-2 {
+    margin-bottom: 3em;
+    text-shadow: 1px 1px 5px black;
+    color: #fff;
+}
+
+.text-bingkai-2 h3 {
+    font-size: 40px;
+}
+
+.bingkai-dua {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bingkai-dua img {
+    padding: 20px;
+    width: 90%;
+}
+
+.bingkai-dua a {
+    width: 50%;
+    margin-bottom: 2em;
+    background-color: rgb(143, 143, 143);
+}
+
+.image img {
+    width: 200px;
+    height: 190px;
+}
+
+.rating {
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+/* akhir dari card 2 */
